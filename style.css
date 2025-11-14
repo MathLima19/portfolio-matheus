@@ -99,6 +99,17 @@ h2 {
     box-shadow: 0 0 15px #58a6ff55;
 }
 
+/* ====== LINKS DOS CARDS ====== */
+.card h3 a {
+    color: #58a6ff;         /* Azul padrão do site */
+    text-decoration: none;  /* Remove o sublinhado feio */
+    font-weight: bold;
+}
+
+.card h3 a:hover {
+    text-decoration: underline; /* Hover suave e bonito */
+}
+
 /* ====== FOOTER ====== */
 footer {
     text-align: center;
@@ -106,3 +117,4 @@ footer {
     margin-top: 40px;
     color: #8b949e;
 }
+
