@@ -1,0 +1,108 @@
+/* ====== ESTILO GLOBAL ====== */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0d1117;
+    padding: 15px 0;
+    border-bottom: 1px solid #21262d;
+    text-align: center;
+    z-index: 1000;
+}
+.navbar a {
+    margin: 0 15px;
+    color: #58a6ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.nav-space {
+    height: 70px;
+}
+
+/* ====== HEADER ====== */
+header {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #58a6ff;
+    font-weight: normal;
+}
+
+.foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #21262d;
+    margin: 20px auto;
+    border: 3px solid #58a6ff;
+    box-shadow: 0 0 12px #58a6ff66;
+    transition: 0.3s;
+}
+
+.foto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #58a6ffaa;
+}
+
+/* ====== SEÇÕES ====== */
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #1f2630;
+    margin: 0 8%;
+}
+
+/* ====== PROJETOS ====== */
+.projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #21262d;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #58a6ff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #58a6ff55;
+}
+
+/* ====== FOOTER ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #8b949e;
+}
