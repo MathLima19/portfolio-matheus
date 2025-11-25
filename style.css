@@ -59,6 +59,16 @@ h2 {
     box-shadow: 0 0 12px #58a6ff66;
     transition: 0.3s;
 }
+.foto {
+    overflow: hidden; /* corta a imagem no formato da bolinha */
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* preenche a bolinha sem distorcer */
+    display: block; /* remove espaços indesejados */
+}
 
 .foto:hover {
     transform: scale(1.05);
@@ -117,4 +127,5 @@ footer {
     margin-top: 40px;
     color: #8b949e;
 }
+
 
